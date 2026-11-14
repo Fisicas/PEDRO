@@ -5,7 +5,9 @@ type: software
 authors:
   - given-names: "Michael Raymond"
     family-names: "Nelson"
+    orcid: "https://orcid.org/0009-0004-9809-9842"
 version: "0.2.0b1"
+date-released: "2026-11-14"
 license: MIT
 repository-code: "https://github.com/Fisicas/PEDRO"
 abstract: >-

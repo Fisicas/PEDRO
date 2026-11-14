@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0b1 (unreleased): harmonic ONIOM public beta
+## 0.2.0b1 (14 November 2026): harmonic ONIOM public beta
 
 - First public-beta scope: harmonic assignments for molecules embedded in large ONIOM/QM/MM models. F remains
   the default full-model convention; existing GVPT2 tools remain optional. Publication follows a convincing
@@ -17,7 +17,7 @@
   retains the previous active version on update failure, and supports version pinning/offline launch. Manifests
   include pip's Git-install provenance when available.
 - CSV consumers of Fprime/P must account for the new rigid-body column and the corrected environment-only total.
-  The F and isolated CSV layouts are unchanged. The release date and DOI will be set when actually published.
+  The F and isolated CSV layouts are unchanged. The version DOI will be added after Zenodo archives the release.
 
 ## 0.2.0.dev4 (12 November 2026): more input programs, release metadata
 

@@ -39,11 +39,14 @@ PyPI upload or Zenodo record has been published. Publish only this `pedro/` tree
 
 ## Publication actions still pending
 
-- [ ] Create/verify the GitHub repository and remote, then push the reviewed code and run CI.
+- [x] Create/verify the GitHub repository and remote, then push the reviewed code and run CI.
+      [CI run 43558644365](https://github.com/Fisicas/PEDRO/actions/runs/43558644365) passed for commit `12143aa`.
 - [ ] Publish the ONIOM benchmark archive and add its actual persistent link to the benchmark README and validation.
 - [ ] Set the actual release date in `CITATION.cff`, date the changelog, and create tag `v0.2.0b1`.
 - [ ] Publish the GitHub beta release and social preview; visually check adaptive branding in dark mode.
 - [ ] Archive the software release on Zenodo and add its actual DOI to the citation and README.
+
+Follow the [archiving procedure](archiving.md) for the software and the separate owned benchmark dataset.
 
 ## Later work
 

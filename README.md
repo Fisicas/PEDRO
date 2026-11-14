@@ -225,13 +225,16 @@ Citation metadata is in [`CITATION.cff`](CITATION.cff); GitHub shows it as *Cite
 
 If you compare with VEDA, please also cite M. H. Jamróz, *Spectrochim. Acta A* **114**, 220–230 (2013).
 
+For reproducible work, cite the specific PEDRO version and its version DOI once the Zenodo archive is published.
+The software and the owned ONIOM benchmark will have separate citations; see the [archiving procedure](docs/archiving.md).
+
 ## License
 
 MIT ([LICENSE](LICENSE)). Author: Michael Raymond Nelson.
 
 ## Development and support
 
-Report reproducible problems and discuss changes through the repository's issues and pull requests once it is
-public. See [CONTRIBUTING.md](CONTRIBUTING.md). Development will continue publicly; a paper route will be chosen
+Report reproducible problems and discuss changes through the repository's issues and pull requests.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Development will continue publicly; a paper route will be chosen
 after an application demonstrates the value of full-model assignments. The software citation is available now;
 no publication or DOI is implied.
