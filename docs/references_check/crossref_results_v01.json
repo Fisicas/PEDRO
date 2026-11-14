@@ -1,0 +1,655 @@
+{
+ "wilson1955": {
+  "mode": "search",
+  "query": "Wilson Decius Cross Molecular Vibrations McGraw-Hill 1955",
+  "score": 54.498714,
+  "doi": "10.1126/science.122.3166.422.a",
+  "title": "<i>Molecular Vibrations</i>\n            . The theory of infrared and Raman vibrational spectra. E. Bright Wilson, Jr., J. C. Decius, and Paul C. Cross. McGraw-Hill, New York-London, 1955. xi + 371 pp. Illus. $8.50.",
+  "container": "Science",
+  "year": 1955,
+  "volume": "122",
+  "page": "422-422",
+  "first_author": "Herzberg",
+  "authors": [
+   "G. Herzberg"
+  ]
+ },
+ "morino1952": {
+  "mode": "search",
+  "query": "Morino Kuchitsu 1952 J. Chem. Phys. 20 1809 potential energy distribution",
+  "score": 43.509697,
+  "doi": "10.1063/1.1700299",
+  "title": "A Note on the Classification of Normal Vibrations of Molecules",
+  "container": "The Journal of Chemical Physics",
+  "year": 1952,
+  "volume": "20",
+  "page": "1809-1810",
+  "first_author": "Morino",
+  "authors": [
+   "Yonezo Morino",
+   "Kôzo Kuchitsu"
+  ]
+ },
+ "keresztury1971": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "jamroz2013": {
+  "mode": "doi",
+  "doi": "10.1016/j.saa.2013.05.096",
+  "title": "Vibrational Energy Distribution Analysis (VEDA): Scopes and limitations",
+  "container": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+  "year": 2013,
+  "volume": "114",
+  "page": "220-230",
+  "first_author": "Jamróz",
+  "authors": [
+   "Michał H. Jamróz"
+  ]
+ },
+ "jamroz2006": {
+  "mode": "search",
+  "query": "Jamroz Dobrowolski 2006 Journal of Molecular Structure 787 172",
+  "score": 41.38855,
+  "doi": "10.1016/j.molstruc.2005.10.044",
+  "title": "Vibrational modes of 2,6-, 2,7-, and 2,3-diisopropylnaphthalene. A DFT study",
+  "container": "Journal of Molecular Structure",
+  "year": 2006,
+  "volume": "787",
+  "page": "172-183",
+  "first_author": "Jamróz",
+  "authors": [
+   "Michał H. Jamróz",
+   "Jan Cz. Dobrowolski",
+   "Robert Brzozowski"
+  ]
+ },
+ "pulay1979": {
+  "mode": "search",
+  "query": "Pulay Fogarasi Pang Boggs 1979 J. Am. Chem. Soc. 101 2550 systematic ab initio gradient calculation",
+  "score": 100.724335,
+  "doi": "10.1021/ja00504a009",
+  "title": "Systematic ab initio gradient calculation of molecular geometries, force constants, and dipole moment derivatives",
+  "container": "Journal of the American Chemical Society",
+  "year": 1979,
+  "volume": "101",
+  "page": "2550-2560",
+  "first_author": "Pulay",
+  "authors": [
+   "Peter Pulay",
+   "Geza Fogarasi",
+   "Frank Pang",
+   "James E. Boggs"
+  ]
+ },
+ "fogarasi1992": {
+  "mode": "search",
+  "query": "Fogarasi Zhou Taylor Pulay 1992 J. Am. Chem. Soc. 114 8191 natural internal coordinates",
+  "score": 77.20497,
+  "doi": "10.1021/ja00047a032",
+  "title": "The calculation of ab initio molecular geometries: efficient optimization by natural internal coordinates and empirical correction by offset forces",
+  "container": "Journal of the American Chemical Society",
+  "year": 1992,
+  "volume": "114",
+  "page": "8191-8201",
+  "first_author": "Fogarasi",
+  "authors": [
+   "Geza Fogarasi",
+   "Xuefeng Zhou",
+   "Patterson W. Taylor",
+   "Peter Pulay"
+  ]
+ },
+ "blondel1996": {
+  "mode": "search",
+  "query": "Blondel Karplus 1996 J. Comput. Chem. 17 1132 new formulation for derivatives of torsion angles",
+  "score": 86.28182,
+  "doi": "10.1002/(sici)1096-987x(19960715)17:9<1132::aid-jcc5>3.0.co;2-t",
+  "title": "New formulation for derivatives of torsion angles and improper torsion angles in molecular mechanics: Elimination of singularities",
+  "container": "Journal of Computational Chemistry",
+  "year": 1996,
+  "volume": "17",
+  "page": "1132-1141",
+  "first_author": "Blondel",
+  "authors": [
+   "Arnaud Blondel",
+   "Martin Karplus"
+  ]
+ },
+ "sinkhorn1964": {
+  "mode": "search",
+  "query": "Sinkhorn 1964 Annals of Mathematical Statistics 35 876 relationship between arbitrary positive matrices and doubly stochastic matrices",
+  "score": 117.8262,
+  "doi": "10.1214/aoms/1177703591",
+  "title": "A Relationship Between Arbitrary Positive Matrices and Doubly Stochastic Matrices",
+  "container": "The Annals of Mathematical Statistics",
+  "year": 1964,
+  "volume": "35",
+  "page": "876-879",
+  "first_author": "Sinkhorn",
+  "authors": [
+   "Richard Sinkhorn"
+  ]
+ },
+ "head1997": {
+  "mode": "search",
+  "query": "Head 1997 International Journal of Quantum Chemistry 65 827 computation of vibrational frequencies for adsorbates on surfaces",
+  "score": 80.09734,
+  "doi": "10.1002/(sici)1097-461x(1997)65:5<827::aid-qua47>3.3.co;2-l",
+  "title": "Computation of vibrational frequencies for adsorbates on surfaces",
+  "container": "International Journal of Quantum Chemistry",
+  "year": 1997,
+  "volume": "65",
+  "page": "827-838",
+  "first_author": "Head",
+  "authors": [
+   "John D. Head"
+  ]
+ },
+ "li2002": {
+  "mode": "search",
+  "query": "Li Jensen 2002 Theoretical Chemistry Accounts 107 211 partial Hessian vibrational analysis",
+  "score": 72.32538,
+  "doi": "10.1007/s00214-001-0317-7",
+  "title": "Partial Hessian vibrational analysis: the localization of the molecular vibrational energy and entropy",
+  "container": "Theoretical Chemistry Accounts: Theory, Computation, and Modeling (Theoretica Chimica Acta)",
+  "year": 2002,
+  "volume": "107",
+  "page": "211-219",
+  "first_author": "Li",
+  "authors": [
+   "Hui Li",
+   "Jan H. Jensen"
+  ]
+ },
+ "cordero2008": {
+  "mode": "search",
+  "query": "Cordero Gomez Platero-Prats 2008 Dalton Transactions 2832 covalent radii revisited",
+  "score": 85.63157,
+  "doi": "10.1039/b801115j",
+  "title": "Covalent radii revisited",
+  "container": "Dalton Transactions",
+  "year": 2008,
+  "volume": null,
+  "page": "2832",
+  "first_author": "Cordero",
+  "authors": [
+   "Beatriz Cordero",
+   "Verónica Gómez",
+   "Ana E. Platero-Prats",
+   "Marc Revés",
+   "Jorge Echeverría",
+   "Eduard Cremades",
+   "Flavia Barragán",
+   "Santiago Alvarez"
+  ]
+ },
+ "tiesinga2021": {
+  "mode": "search",
+  "query": "Tiesinga Mohr Newell Taylor 2021 Reviews of Modern Physics 93 025010 CODATA recommended values 2018",
+  "score": 89.9241,
+  "doi": "10.1103/revmodphys.93.025010",
+  "title": "CODATA recommended values of the fundamental physical constants: 2018",
+  "container": "Reviews of Modern Physics",
+  "year": 2021,
+  "volume": "93",
+  "page": "025010",
+  "first_author": "Tiesinga",
+  "authors": [
+   "Eite Tiesinga",
+   "Peter J. Mohr",
+   "David B. Newell",
+   "Barry N. Taylor"
+  ]
+ },
+ "barone2005": {
+  "mode": "search",
+  "query": "Barone 2005 J. Chem. Phys. 122 014108 anharmonic vibrational properties by a fully automated second-order perturbative approach",
+  "score": 88.98303,
+  "doi": "10.1063/1.1824881",
+  "title": "Anharmonic vibrational properties by a fully automated second-order perturbative approach",
+  "container": "The Journal of Chemical Physics",
+  "year": 2004,
+  "volume": "122",
+  "page": "014108",
+  "first_author": "Barone",
+  "authors": [
+   "Vincenzo Barone"
+  ]
+ },
+ "bloino2012": {
+  "mode": "search",
+  "query": "Bloino Barone 2012 J. Chem. Phys. 136 124108 second-order perturbation theory approach for computing vibrational spectra",
+  "score": 62.32435,
+  "doi": "10.1063/1.3695210",
+  "title": "A second-order perturbation theory route to vibrational averages and transition properties of molecules: General formulation and application to infrared and vibrational circular dichroism spectroscopies",
+  "container": "The Journal of Chemical Physics",
+  "year": 2012,
+  "volume": "136",
+  "page": "124108",
+  "first_author": "Bloino",
+  "authors": [
+   "Julien Bloino",
+   "Vincenzo Barone"
+  ]
+ },
+ "martin1995": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "kabsch1976": {
+  "mode": "search",
+  "query": "Kabsch 1976 Acta Crystallographica A32 922 solution for the best rotation to relate two sets of vectors",
+  "score": 79.511856,
+  "doi": "10.1107/s0567739476001873",
+  "title": "A solution for the best rotation to relate two sets of vectors",
+  "container": "Acta Crystallographica Section A",
+  "year": 1976,
+  "volume": "32",
+  "page": "922-923",
+  "first_author": "Kabsch",
+  "authors": [
+   "W. Kabsch"
+  ]
+ },
+ "kuhn1955": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "weisfeiler1968": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "tao2018": {
+  "mode": "search",
+  "query": "Tao Tian Verma Zou Wang Cremer Kraka 2018 Recovering intrinsic fragmental vibrations using the generalized subsystem vibrational analysis J. Chem. Theory Comput.",
+  "score": 126.271194,
+  "doi": "10.1021/acs.jctc.7b01171",
+  "title": "Recovering Intrinsic Fragmental Vibrations Using the Generalized Subsystem Vibrational Analysis",
+  "container": "Journal of Chemical Theory and Computation",
+  "year": 2018,
+  "volume": "14",
+  "page": "2558-2569",
+  "first_author": "Tao",
+  "authors": [
+   "Yunwen Tao",
+   "Chuan Tian",
+   "Niraj Verma",
+   "Wenli Zou",
+   "Chao Wang",
+   "Dieter Cremer",
+   "Elfi Kraka"
+  ]
+ },
+ "zou2021revgsva": {
+  "mode": "search",
+  "query": "Zou Tao Freindorf Cremer Kraka 2020 local vibrational mode analysis revised generalized subsystem vibrational analysis",
+  "score": 84.66656,
+  "doi": "10.1007/s00214-021-02727-y",
+  "title": "A revised formulation of the generalized subsystem vibrational analysis (GSVA)",
+  "container": "Theoretical Chemistry Accounts",
+  "year": 2021,
+  "volume": "140",
+  "page": "31",
+  "first_author": "Tao",
+  "authors": [
+   "Yunwen Tao",
+   "Wenli Zou",
+   "Sadisha Nanayakkara",
+   "Marek Freindorf",
+   "Elfi Kraka"
+  ]
+ },
+ "moura2023": {
+  "mode": "doi",
+  "doi": "10.1021/acs.jpca.2c07871",
+  "title": "Automatic Generation of Local Vibrational Mode Parameters: From Small to Large Molecules and QM/MM Systems",
+  "container": "The Journal of Physical Chemistry A",
+  "year": 2022,
+  "volume": "126",
+  "page": "9313-9331",
+  "first_author": "Moura",
+  "authors": [
+   "Renaldo T. Moura",
+   "Mateus Quintano",
+   "Juliana J. Antonio",
+   "Marek Freindorf",
+   "Elfi Kraka"
+  ]
+ },
+ "schwinn2020": {
+  "mode": "search",
+  "query": "Schwinn Ferre Huix-Rotllant 2020 Efficient analytic second derivative of electrostatic embedding QM/MM energy normal mode analysis of plant cryptochrome",
+  "score": 124.57017,
+  "doi": "10.1021/acs.jctc.9b01145",
+  "title": "Efficient Analytic Second Derivative of Electrostatic Embedding QM/MM Energy: Normal Mode Analysis of Plant Cryptochrome",
+  "container": "Journal of Chemical Theory and Computation",
+  "year": 2020,
+  "volume": "16",
+  "page": "3816-3824",
+  "first_author": "Schwinn",
+  "authors": [
+   "Karno Schwinn",
+   "Nicolas Ferré",
+   "Miquel Huix-Rotllant"
+  ]
+ },
+ "schwinn2021": {
+  "mode": "search",
+  "query": "Schwinn Ferre Huix-Rotllant 2021 Physical Chemistry Chemical Physics QM/MM normal mode localized vibrational analysis",
+  "score": 81.776115,
+  "doi": "10.1039/d0cp06070d",
+  "title": "Infrared spectroscopy from electrostatic embedding QM/MM: local normal mode analysis of infrared spectra of arabidopsis thaliana plant cryptochrome",
+  "container": "Physical Chemistry Chemical Physics",
+  "year": 2021,
+  "volume": "23",
+  "page": "1666-1674",
+  "first_author": "Huix-Rotllant",
+  "authors": [
+   "Miquel Huix-Rotllant",
+   "Karno Schwinn",
+   "Nicolas Ferré"
+  ]
+ },
+ "ghysels2010tamkin": {
+  "mode": "search",
+  "query": "Ghysels Verstraelen Hemelsoet Waroquier Van Speybroeck 2010 TAMkin toolkit for normal mode analysis J. Chem. Inf. Model.",
+  "score": 94.942024,
+  "doi": "10.1021/ci100099g",
+  "title": "TAMkin: A Versatile Package for Vibrational Analysis and Chemical Kinetics",
+  "container": "Journal of Chemical Information and Modeling",
+  "year": 2010,
+  "volume": "50",
+  "page": "1736-1750",
+  "first_author": "Ghysels",
+  "authors": [
+   "An Ghysels",
+   "Toon Verstraelen",
+   "Karen Hemelsoet",
+   "Michel Waroquier",
+   "Veronique Van Speybroeck"
+  ]
+ },
+ "ghysels2010qmmm": {
+  "mode": "search",
+  "query": "Ghysels Woodcock Larkin Miller Shao Kong Van Neck Van Speybroeck Waroquier Brooks 2011 efficient calculation of QM/MM frequencies with the mobile block Hessian J. Chem. Theory Comput.",
+  "score": 134.02469,
+  "doi": "10.1021/ct100473f",
+  "title": "Efficient Calculation of QM/MM Frequencies with the Mobile Block Hessian",
+  "container": "Journal of Chemical Theory and Computation",
+  "year": 2011,
+  "volume": "7",
+  "page": "496-514",
+  "first_author": "Ghysels",
+  "authors": [
+   "An Ghysels",
+   "H. Lee Woodcock",
+   "Joseph D. Larkin",
+   "Benjamin T. Miller",
+   "Yihan Shao",
+   "Jing Kong",
+   "Dimitri Van Neck",
+   "Veronique Van Speybroeck",
+   "Michel Waroquier",
+   "Bernard R. Brooks"
+  ]
+ },
+ "vester2024": {
+  "mode": "doi",
+  "doi": "10.1021/acs.jctc.4c00882",
+  "title": "Assessing the Partial Hessian Approximation in QM/MM-Based Vibrational Analysis",
+  "container": "Journal of Chemical Theory and Computation",
+  "year": 2024,
+  "volume": "20",
+  "page": "9533-9546",
+  "first_author": "Vester",
+  "authors": [
+   "Jonas Vester",
+   "Jógvan Magnus Haugaard Olsen"
+  ]
+ },
+ "oenen2024": {
+  "mode": "doi",
+  "doi": "10.1063/5.0180657",
+  "title": "Determining internal coordinate sets for optimal representation of molecular vibration",
+  "container": "The Journal of Chemical Physics",
+  "year": 2024,
+  "volume": "160",
+  "page": "014104",
+  "first_author": "Oenen",
+  "authors": [
+   "Kemal Oenen",
+   "Dennis F. Dinu",
+   "Klaus R. Liedl"
+  ]
+ },
+ "neugebauer2009": {
+  "mode": "doi",
+  "doi": "10.2533/chimia.2009.270",
+  "title": "Intensity Tracking for Vibrational Spectra of Large Molecules",
+  "container": "CHIMIA",
+  "year": 2009,
+  "volume": "63",
+  "page": "270",
+  "first_author": "Kiewisch",
+  "authors": [
+   "Karin Kiewisch",
+   "Sandra Luber",
+   "Johannes Neugebauer",
+   "Markus Reiher"
+  ]
+ },
+ "reiher2003": {
+  "mode": "search",
+  "query": "Reiher Neugebauer 2003 a mode-selective quantum chemical method for tracking molecular vibrations applied to functionalized carbon nanotubes J. Chem. Phys.",
+  "score": 96.33232,
+  "doi": "10.1063/1.1523908",
+  "title": "A mode-selective quantum chemical method for tracking molecular\n                    vibrations applied to functionalized carbon nanotubes",
+  "container": "The Journal of Chemical Physics",
+  "year": 2003,
+  "volume": "118",
+  "page": "1634-1641",
+  "first_author": "Reiher",
+  "authors": [
+   "Markus Reiher",
+   "Johannes Neugebauer"
+  ]
+ },
+ "le2026": {
+  "mode": "doi",
+  "doi": "10.1021/acsomega.6c06386",
+  "title": "QM/MM Calculated\nTriplet–Singlet Infrared Difference\nSpectra of LOV2 Photoreceptor Domains and FMN in Solution",
+  "container": "ACS Omega",
+  "year": 2026,
+  "volume": "11",
+  "page": "51851-51863",
+  "first_author": "Le",
+  "authors": [
+   "D. P. Ngan Le",
+   "Gary Hastings",
+   "Samer Gozem"
+  ]
+ },
+ "flavin2025": {
+  "mode": "doi",
+  "doi": "10.1039/d5cp02306h",
+  "title": "Assigning flavin's difference-FTIR spectral bands in solution: frequency and intensity shifts in flavin's 1-electron and 2-electron reduced states",
+  "container": "Physical Chemistry Chemical Physics",
+  "year": 2025,
+  "volume": "27",
+  "page": "24024-24039",
+  "first_author": "Le",
+  "authors": [
+   "D. P. Ngan Le",
+   "Gary Hastings",
+   "Samer Gozem"
+  ]
+ },
+ "unimovib": {
+  "mode": "search",
+  "query": "Zou Tao Freindorf Makos Verma Cremer Kraka UniMoVib unified interface molecular harmonic vibrational frequency calculations",
+  "score": 54.83645,
+  "doi": "10.3390/s20082358",
+  "title": "A Critical Evaluation of Vibrational Stark Effect (VSE) Probes with the Local Vibrational Mode Theory",
+  "container": "Sensors",
+  "year": 2020,
+  "volume": "20",
+  "page": "2358",
+  "first_author": "Verma",
+  "authors": [
+   "Niraj Verma",
+   "Yunwen Tao",
+   "Wenli Zou",
+   "Xia Chen",
+   "Xin Chen",
+   "Marek Freindorf",
+   "Elfi Kraka"
+  ]
+ },
+ "becke1993": {
+  "mode": "search",
+  "query": "Becke 1993 J. Chem. Phys. 98 5648 density-functional thermochemistry III role of exact exchange",
+  "score": 85.038925,
+  "doi": "10.1063/1.464913",
+  "title": "Density-functional thermochemistry. III. The role of exact exchange",
+  "container": "The Journal of Chemical Physics",
+  "year": 1993,
+  "volume": "98",
+  "page": "5648-5652",
+  "first_author": "Becke",
+  "authors": [
+   "Axel D. Becke"
+  ]
+ },
+ "lee1988": {
+  "mode": "search",
+  "query": "Lee Yang Parr 1988 Phys. Rev. B 37 785 development of the Colle-Salvetti correlation-energy formula",
+  "score": 85.643524,
+  "doi": "10.1103/physrevb.37.785",
+  "title": "Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density",
+  "container": "Physical Review B",
+  "year": 1988,
+  "volume": "37",
+  "page": "785-789",
+  "first_author": "Lee",
+  "authors": [
+   "Chengteh Lee",
+   "Weitao Yang",
+   "Robert G. Parr"
+  ]
+ },
+ "dunning1989": {
+  "mode": "search",
+  "query": "Dunning 1989 J. Chem. Phys. 90 1007 Gaussian basis sets for use in correlated molecular calculations atoms boron through neon and hydrogen",
+  "score": 106.78727,
+  "doi": "10.1063/1.456153",
+  "title": "Gaussian basis sets for use in correlated molecular calculations. I. The atoms boron through neon and hydrogen",
+  "container": "The Journal of Chemical Physics",
+  "year": 1989,
+  "volume": "90",
+  "page": "1007-1023",
+  "first_author": "Dunning",
+  "authors": [
+   "Thom H. Dunning"
+  ]
+ },
+ "kendall1992": {
+  "mode": "search",
+  "query": "Kendall Dunning Harrison 1992 J. Chem. Phys. 96 6796 electron affinities of the first-row atoms revisited",
+  "score": 85.94753,
+  "doi": "10.1063/1.462569",
+  "title": "Electron affinities of the first-row atoms revisited. Systematic basis sets and wave functions",
+  "container": "The Journal of Chemical Physics",
+  "year": 1992,
+  "volume": "96",
+  "page": "6796-6806",
+  "first_author": "Kendall",
+  "authors": [
+   "Rick A. Kendall",
+   "Thom H. Dunning",
+   "Robert J. Harrison"
+  ]
+ },
+ "weigend2005": {
+  "mode": "search",
+  "query": "Weigend Ahlrichs 2005 Phys. Chem. Chem. Phys. 7 3297 balanced basis sets of split valence triple zeta valence and quadruple zeta valence quality",
+  "score": 162.53859,
+  "doi": "10.1039/b508541a",
+  "title": "Balanced basis sets of split valence, triple zeta valence and quadruple zeta valence quality for H to Rn: Design and assessment of accuracy",
+  "container": "Physical Chemistry Chemical Physics",
+  "year": 2005,
+  "volume": "7",
+  "page": "3297",
+  "first_author": "Weigend",
+  "authors": [
+   "Florian Weigend",
+   "Reinhart Ahlrichs"
+  ]
+ },
+ "grimme2011": {
+  "mode": "search",
+  "query": "Grimme Ehrlich Goerigk 2011 J. Comput. Chem. 32 1456 effect of the damping function in dispersion corrected density functional theory",
+  "score": 108.225174,
+  "doi": "10.1002/jcc.21759",
+  "title": "Effect of the damping function in dispersion corrected density functional theory",
+  "container": "Journal of Computational Chemistry",
+  "year": 2011,
+  "volume": "32",
+  "page": "1456-1465",
+  "first_author": "Grimme",
+  "authors": [
+   "Stefan Grimme",
+   "Stephan Ehrlich",
+   "Lars Goerigk"
+  ]
+ },
+ "neese2025orca6": {
+  "mode": "search",
+  "query": "Neese 2025 software update the ORCA program system version 6.0 WIREs Computational Molecular Science",
+  "score": 85.01877,
+  "doi": "10.1002/wcms.70019",
+  "title": "Software Update: The\n                    <scp>ORCA</scp>\n                    Program System—Version 6.0",
+  "container": "WIREs Computational Molecular Science",
+  "year": 2025,
+  "volume": "15",
+  "page": "e70019",
+  "first_author": "Neese",
+  "authors": [
+   "Frank Neese"
+  ]
+ },
+ "rappe1992": {
+  "mode": "search",
+  "query": "Rappe Casewit Colwell Goddard Skiff 1992 UFF a full periodic table force field J. Am. Chem. Soc. 114 10024",
+  "score": 118.7868,
+  "doi": "10.1021/ja00051a040",
+  "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+  "container": "Journal of the American Chemical Society",
+  "year": 1992,
+  "volume": "114",
+  "page": "10024-10035",
+  "first_author": "Rappe",
+  "authors": [
+   "A. K. Rappe",
+   "C. J. Casewit",
+   "K. S. Colwell",
+   "W. A. Goddard",
+   "W. M. Skiff"
+  ]
+ },
+ "dapprich1999": {
+  "mode": "search",
+  "query": "Dapprich Komaromi Byun Morokuma Frisch 1999 new ONIOM implementation in Gaussian98 J. Mol. Struct. THEOCHEM",
+  "score": 84.517586,
+  "doi": "10.1016/s0166-1280(98)00475-8",
+  "title": "A new ONIOM implementation in Gaussian98. Part I. The calculation of energies, gradients, vibrational frequencies and electric field derivatives",
+  "container": "Journal of Molecular Structure: THEOCHEM",
+  "year": 1999,
+  "volume": "461-462",
+  "page": "1-21",
+  "first_author": "Dapprich",
+  "authors": [
+   "Stefan Dapprich",
+   "István Komáromi",
+   "K.Suzie Byun",
+   "Keiji Morokuma",
+   "Michael J Frisch"
+  ]
+ }
+}

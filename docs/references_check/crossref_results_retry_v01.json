@@ -1,0 +1,112 @@
+{
+ "keresztury1971": [
+  {
+   "doi": "10.1016/0022-2860(71)87090-4",
+   "title": "An alternative calculation of the vibrational potential energy distribution",
+   "container": "Journal of Molecular Structure",
+   "year": 1971,
+   "volume": "10",
+   "page": "304-305",
+   "first_author": "Keresztury",
+   "authors": [
+    "G. Keresztury",
+    "G. Jalsovszky"
+   ]
+  },
+  {
+   "doi": "10.1016/j.vibspec.2011.06.008",
+   "title": "Changing editorial structure for Vibrational Spectroscopy",
+   "container": "Vibrational Spectroscopy",
+   "year": 2011,
+   "volume": null,
+   "page": null,
+   "first_author": "Keresztury",
+   "authors": [
+    "Gábor Keresztury"
+   ]
+  }
+ ],
+ "martin1995": [
+  {
+   "doi": "10.1063/1.469681",
+   "title": "The anharmonic force field of ethylene, C2H4, by means of accurate <i>ab initio</i> calculations",
+   "container": "The Journal of Chemical Physics",
+   "year": 1995,
+   "volume": "103",
+   "page": "2589-2602",
+   "first_author": "Martin",
+   "authors": [
+    "Jan M. L. Martin",
+    "Timothy J. Lee",
+    "Peter R. Taylor",
+    "Jean-Pierre François"
+   ]
+  },
+  {
+   "doi": "10.1021/j100016a035",
+   "title": "Anharmonic Force Field of Formamide. A Computational Study",
+   "container": "The Journal of Physical Chemistry",
+   "year": 1995,
+   "volume": "99",
+   "page": "5961-5966",
+   "first_author": "Bour",
+   "authors": [
+    "Petr Bour",
+    "Lucie Bednarova"
+   ]
+  }
+ ],
+ "kuhn1955": [
+  {
+   "doi": "10.1002/nav.3800020109",
+   "title": "The Hungarian method for the assignment problem",
+   "container": "Naval Research Logistics Quarterly",
+   "year": 1955,
+   "volume": "2",
+   "page": "83-97",
+   "first_author": "Kuhn",
+   "authors": [
+    "H. W. Kuhn"
+   ]
+  },
+  {
+   "doi": "10.1002/nav.20053",
+   "title": "The Hungarian method for the assignment problem",
+   "container": "Naval Research Logistics (NRL)",
+   "year": 2004,
+   "volume": "52",
+   "page": "7-21",
+   "first_author": "Kuhn",
+   "authors": [
+    "H. W. Kuhn"
+   ]
+  }
+ ],
+ "weisfeiler1968": [
+  {
+   "doi": "10.1109/tkde.2025.3552045/mm1",
+   "title": "Multiscale Weisfeiler-Leman Directed Graph Neural Networks for Prerequisite-Link Prediction_supp1-3552045.pdf",
+   "container": "",
+   "year": null,
+   "volume": null,
+   "page": null,
+   "first_author": "Zhang",
+   "authors": [
+    "Yupei Zhang"
+   ]
+  },
+  {
+   "doi": "10.1137/1.9781611977554.ch87",
+   "title": "Weisfeiler-Leman and Graph Spectra",
+   "container": "Proceedings of the 2023 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+   "year": 2023,
+   "volume": null,
+   "page": "2268-2285",
+   "first_author": "Rattan",
+   "authors": [
+    "Gaurav Rattan",
+    "Tim Seppelt"
+   ]
+  }
+ ]
+}

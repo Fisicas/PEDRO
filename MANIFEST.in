@@ -1,0 +1,9 @@
+include LICENSE CITATION.cff CHANGELOG.md CONTRIBUTING.md Install-PEDRO.ps1
+recursive-include docs *.md *.png *.json *.py
+recursive-include branding *.svg *.png
+recursive-include examples *.md *.log *.gjf *.hess *.inp
+recursive-include tests *.py *.hess
+recursive-include scripts *.py
+recursive-include validation *.md *.json *.dd2 *.fmu *.ved *.gjf *.sha256 *.py
+include validation/own/veda_limits/veda_session_skra_v01.log
+include validation/published/jamroz2013_methanol/methanol.log

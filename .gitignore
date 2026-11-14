@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# PEDRO result folders written next to inputs
+*_PEDRO_*_v*/
+# private reference data must never be committed (see docs/RELEASE_CHECKLIST.md, D2)
+*.log
+*.fchk
+*.fmu
+*.ved
+# public example calculations are the exception
+!examples/*.log
+# own VEDA reference runs are public (validation/veda_reference)
+!validation/veda_reference/**/*.fmu
+!validation/veda_reference/**/*.ved
+!validation/published/**/*.log
+# Explicitly allow only the small, reviewed VEDA session record. The ONIOM log belongs in the data archive.
+!validation/own/veda_limits/veda_session_skra_v01.log
+# Quantum-chemistry runtime/checkpoint files and local benchmark work directories
+*.chk
+*.rwf
+*.scr
+*.gbw
+*.umv
+crosscheck_runs/

@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "input": {
+    "file": "benzaldehyde_water_oniom.log",
+    "bytes": 42513569,
+    "sha256": "40e765cdd93e90b1ffe7dcb3f1a25f5f204fadd7cad529fac04bdb576c3fd131",
+    "provenance": "Owned PEDRO benchmark: benzaldehyde plus 200 UFF waters, not a collaborator research dataset"
+  },
+  "software": {
+    "pedro": "0.2.0b1",
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "options": {
+    "coords": null,
+    "coords_molecule": null,
+    "atom_map": null,
+    "masses": "auto",
+    "mass_overrides": null,
+    "coord_classes": null,
+    "subsystem": null,
+    "case": "F",
+    "mobile": null,
+    "scale": 1.0,
+    "cluster_cm1": 1.0,
+    "ted_threshold": 10.0,
+    "groups_csv": null,
+    "window": null,
+    "anharmonic": "off",
+    "symmetry": "auto",
+    "screen": false,
+    "screen_delta_cm1": 10.0
+  },
+  "checks": {
+    "case": "F",
+    "n_atoms": 614,
+    "n_subsystem_atoms": 14,
+    "subsystem_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "n_modes": 1836,
+    "n_internal_coordinates": 36,
+    "n_total_coordinates": 1836,
+    "n_imaginary": 0,
+    "max_freq_difference_from_Gaussian_cm1": 0.03008690618118237,
+    "TED_row_closure_max_pp": 5.684341886080801e-13,
+    "TED_column_closure_max_pp": 1.0373923942097463e-12,
+    "condition_L": 181.04198444729641,
+    "Cartesian_energy_max_relative_error": 7.626044240538477e-11,
+    "row_partition_PED_vs_TED_max_pp": 4.534445352533112e-08,
+    "diagonal_PED_vs_Cartesian_energy_max_pp": 8.102506399154663e-08,
+    "diagonal_PED_plus_all_cross_terms_closure_max_pp": 1.4901161193847656e-08,
+    "TED_CSV_rounding_max_pp": 0.0004999963413317764,
+    "PED_CSV_rounding_max_pp": 0.0004999836392845939,
+    "environment_TED_vs_amplitude_max_difference_pp_case_F": 4.641748814551306,
+    "diagonal_PED_all_coordinate_sum_range_pct": [
+      43.05324502317655,
+      76363174.98571305
+    ],
+    "unscaled_frequency_range_cm1": [
+      1.3913035462253587,
+      3767.232328846964
+    ],
+    "VEDA_balanced_PED": "not computed for embedded case F; no ped_veda_compatible.csv is claimed",
+    "carbonyl": {
+      "selection": "largest positive TED in the single C-O stretch coordinate; all modes retained in the full outputs",
+      "coordinate": "ν(C12–O13)",
+      "coordinate_index_1based": 13,
+      "mode_1based": 1430,
+      "freq_cm1_unscaled": 1803.3401779303229,
+      "ir_km_mol": 227.75185596323809,
+      "ted_CO_pct": 87.10747287753472,
+      "ped_diagonal_CO_pct": 94.5050887727229,
+      "ped_row_partition_CO_pct": 87.10747287753478,
+      "subsystem_internal_ted_pct": 99.99398614561318,
+      "subsystem_amplitude_pct": 99.99400149353913,
+      "environment_ted_pct_case_F": 0.006013854386794985,
+      "description": "ν(C12–O13) 87"
+    }
+  },
+  "interpretation": {
+    "largest_full_basis_diagonal_PED_sum": {
+      "mode_1based": 1,
+      "freq_cm1": 1.3913035462253587,
+      "total_diagonal_PED_pct": 76363174.9857132,
+      "subsystem_internal_diagonal_PED_sum_pct": 8.711071818555991,
+      "subsystem_internal_TED_sum_pct": 0.00029754979702052817
+    },
+    "maximum_subsystem_internal_diagonal_PED_entry_pct": 594.9292569081069,
+    "maximum_full_basis_abs_TED_entry_pct": 129.2649256231172,
+    "warning": "Large diagonal PED sums in soft modes require canceling cross terms; diagonal PED is not a probability or a normalized distribution."
+  },
+  "conventions": {
+    "TED": "signed total-energy distribution, equal to half-cross-term row-partition PED",
+    "PED": "Morino-Kuchitsu diagonal potential-energy distribution; include cross terms for an energy budget",
+    "VEDA_balanced_PED": "not computed for embedded case F",
+    "frequency": "cm^-1, unscaled, ascending; display scale 1.0",
+    "IR_intensity": "km/mol",
+    "basis": "36 automatic internal coordinates of atoms 1-14 plus 1800 environment Cartesians; global rigid motion projected out"
+  },
+  "processing": "No smoothing, baseline correction, normalization, resampling, or spectral filtering. Harmonic only; resonance screen off.",
+  "display_only_plotting": {
+    "standard_HTML_spectrum": "Lorentzian HWHM 10 cm^-1, 4000-point plotting grid, envelope height normalized to the tallest stick; original mode tables and IR intensities are unchanged",
+    "HTML_mode_table": "Only modes with at least 20% subsystem mass-weighted amplitude; all modes remain in CSV/NPZ"
+  },
+  "code_sha256": {
+    "src/pedro/basis.py": "4b3657228bf3a0014f7f5d090c796a3cb2e551c687961b127dde3ccbd2d62789",
+    "src/pedro/cli.py": "75151d7a39437dec70582e0c83b01e4da55077bbc77140fa5f4afd87381ca963",
+    "src/pedro/constants.py": "8d4fef89b3c4badd4b3cd261b36a6c182953e58d9ebc8970ff65323dfd1719bc",
+    "src/pedro/coordinates.py": "fa9d9f538203aae18383effdf8b022be6bda1d06f99975d77aac2824d200f09f",
+    "src/pedro/distributions.py": "461c6b469eab66851cb4482acecfe359483909bae97f9c7156bb7f6c50193788",
+    "src/pedro/harmonic.py": "5082b375f2e7340582368df24fe45b0b0af33496d3986a0a60d3953a36237938",
+    "src/pedro/job.py": "7289936407adf3f64f117f59d8c3887b489ea6ceb823c819c36c7e3fbb3701ec",
+    "src/pedro/mapping.py": "b26b43700a44492dc6d2aaf50fd34033f60c3ccb2a03620b2ce33e1ee6bd8081",
+    "src/pedro/metrics.py": "ca9d30349eb00f6b30d9a8dbf57c085d6dffae414dd42de057899b7fcd4df5c5",
+    "src/pedro/pipeline.py": "036ea5a3131a3cca44a858cf06f85398275390d5bcfa4cf336db8a989f97733d",
+    "src/pedro/report.py": "91a216ba44a2aa03e5605b31a4c0057c6cb7b0414215db6dab4608deca4d5880",
+    "src/pedro/validate.py": "01003430ad3bc145cb6bf97fea6c7ca226188ca7078f2ac4821a4aa4e72beacc",
+    "src/pedro/__init__.py": "15dd560e34d409e669c99705edab7358ea85931673a385e40718367aee10afb7",
+    "src/pedro/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/pedro/anharmonic/quality.py": "92fc3073c62ff9a35914c09b6090c1e689e72f18f02eb9537cbfec700d8a01b2",
+    "src/pedro/anharmonic/screen.py": "178e9f96f4627545f637bdffe5098f1850ff6ec67ca01ada0b2f48804b738042",
+    "src/pedro/anharmonic/symmetry.py": "befe6737cee0e36dc694a935d2167da9e8ef5a431e1d37781b726fe0bf129dcf",
+    "src/pedro/anharmonic/__init__.py": "dcf297200d13c1bd4204630c61e29bc77db1579b9e232d1fc3866434479948ce",
+    "src/pedro/gui/app.py": "bbda95ae71a6c891b1db75d6c9913583a310abff605a402e97c1172ad550301c",
+    "src/pedro/gui/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/pedro/io/common.py": "1fea31d8fdd7234d4929206d6c3a79611ed090cdf974d2fbe799c53979a45357",
+    "src/pedro/io/fchk.py": "31fcc2e643bb5759bada7501a228d0dafc80dbbc1b168f72b5d47c5155f186c4",
+    "src/pedro/io/gaussian_log.py": "b58908ee0fe68d0775cf937eb4ffc9c64e6dfcf0219eee6fbbae62cc8f434c2c",
+    "src/pedro/io/generic.py": "98195ab0edc3663e29b88a36710988043d88ab98b56a6c3a48190d8fc2dc87c0",
+    "src/pedro/io/orca.py": "3afe3706d4e89371f922c4861dfdd138f24519903c0ac9f17500a39f36f171c5",
+    "src/pedro/io/veda.py": "ee7283a65dad21db8ab4bcf48432319fb1cd75452ed9b26f6a8765522f818b2d",
+    "src/pedro/io/__init__.py": "3dc40ff344e69e5e2459ace8efc92af59683f805275bba4fdaeb58204c5d157f"
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use PEDRO, please cite it as below."
+title: "PEDRO: potential and total energy distributions from Cartesian Hessians, including molecules embedded in large QM/MM models"
+type: software
+authors:
+  - given-names: "Michael Raymond"
+    family-names: "Nelson"
+version: "0.2.0b1"
+license: MIT
+repository-code: "https://github.com/Fisicas/PEDRO"
+abstract: >-
+  PEDRO assigns harmonic vibrational modes of molecules embedded in large ONIOM and QM/MM models using
+  internal-coordinate total energy distributions (TED), retaining the full model's coupling to its environment.
+  It reads Gaussian logs and formatted checkpoints, ORCA Hessian files, VEDA
+  input files and a documented program-independent format; describes a molecule embedded in a large QM/MM (ONIOM)
+  or partial Hessian in that molecule's own internal coordinates, with the environment's share in the same budget;
+  and optionally reads Gaussian GVPT2 overtones, combination bands and resonances with quality checks.
+  Isolated-molecule PED/TED are compared against VEDA 4 on identical input. This is a public beta.
+keywords:
+  - vibrational spectroscopy
+  - potential energy distribution
+  - total energy distribution
+  - normal mode analysis
+  - internal coordinates
+  - QM/MM
+  - ONIOM
+  - GVPT2
+  - Fermi resonance
+  - infrared spectroscopy

@@ -1,0 +1,20 @@
+{
+ "source": "benzaldehyde_water_oniom.log",
+ "sha256": "40e765cdd93e90b1ffe7dcb3f1a25f5f204fadd7cad529fac04bdb576c3fd131",
+ "n_atoms": 614,
+ "A": {
+  "n_unimovib": 1836,
+  "n_pedro": 1836,
+  "max_abs_freq_unimovib_vs_pedro_cm1": 4.9986592784989625e-05,
+  "max_abs_freq_pedro_vs_gaussian_cm1": 0.030087778759119388,
+  "max_abs_ir_unimovib_vs_pedro_km_mol": 4.9963478167287106e-05
+ },
+ "B": {
+  "subsystem_atoms": 14,
+  "hessian_max_abs_diff_Eh_bohr2": 6.33064711763609e-11,
+  "hessian_max_abs_element_Eh_bohr2": 0.8840097922,
+  "n_freq_unimovib": 36,
+  "n_imaginary_unimovib": 0,
+  "max_abs_freq_unimovib_vs_pedro_cm1": 4.862834657615167e-05
+ }
+}

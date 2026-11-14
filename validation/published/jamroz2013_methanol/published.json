@@ -1,0 +1,21 @@
+{
+ "format": "pedro-published-comparison/1",
+ "title": "Methanol, Jamróz 2013 Tables 1A and 1B",
+ "reference": "M. H. Jamróz, Spectrochim. Acta A 114 (2013) 220–230, doi:10.1016/j.saa.2013.05.096",
+ "published_level": "B3LYP/aug-cc-pVQZ, Gaussian 03, VEDA 4",
+ "our_calculation": "methanol.log: Gaussian 16 A.03, B3LYP/aug-cc-pVQZ Opt=Tight Freq Int=UltraFine (methanol.gjf)",
+ "input": "methanol.log",
+ "values": "PED (VEDA convention) in %, unsigned as printed in the dd2 annotations; coordinate -> [[harmonic cm-1, PED], ...]",
+ "tables": {
+  "Table 1A (symmetry conserved)": {
+   "dd2": "table1A_symmetric.dd2", "veda_case": "methanol_jamroz_t1a",
+   "ped": {"1": [[3835, 100]], "2": [[3109, 98]], "3": [[3040, 100]], "4": [[2994, 98]], "5": [[1510, 94]], "6": [[1499, 94]],
+           "7": [[1480, 96]], "8": [[1368, 98]], "9": [[1174, 94]], "10": [[1078, 74], [1040, 22]], "11": [[1078, 22], [1040, 75]],
+           "12": [[292, 99]]}},
+  "Table 1B (symmetry ignored)": {
+   "dd2": "table1B_nosymmetry.dd2", "veda_case": "methanol_jamroz_t1b",
+   "ped": {"1": [[3835, 100]], "2": [[3109, 98]], "3": [[3040, 100]], "4": [[2994, 98]], "5": [[1510, 94]], "6": [[1499, 99]],
+           "7": [[1480, 96]], "8": [[1368, 98]], "9": [[1174, 99]], "10": [[1078, 73], [1040, 22]], "11": [[1078, 22], [1040, 75]],
+           "12": [[292, 100]]}}
+ }
+}

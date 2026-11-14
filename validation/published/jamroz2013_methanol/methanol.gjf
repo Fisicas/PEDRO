@@ -1,0 +1,14 @@
+%nprocshared=6
+%mem=4GB
+#p B3LYP/aug-cc-pVQZ Opt=Tight Freq Int=UltraFine
+
+methanol, reproducing Jamroz 2013 (Spectrochim. Acta A 114, 220) Table 1
+
+0 1
+C   -0.046500    0.663000    0.000000
+H   -1.086000    0.976000    0.000000
+H    0.437000    1.072000    0.890000
+H    0.437000    1.072000   -0.890000
+O   -0.046500   -0.757000    0.000000
+H    0.856000   -1.074000    0.000000
+

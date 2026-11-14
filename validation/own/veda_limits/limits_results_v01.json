@@ -1,0 +1,74 @@
+{
+ "block14": {
+  "same_coordinate_set_as_block14": true,
+  "n_modes": 36,
+  "n_imaginary": 0,
+  "lowest_cm1_pedro": [
+   153.7,
+   231.4,
+   268.6,
+   436.7
+  ],
+  "lowest_cm1_veda": [
+   150.2,
+   232.8,
+   268.2,
+   436.8
+  ],
+  "freq_max_abs_diff_cm1": 8.503712259036206,
+  "ted_max_abs_diff_pp": 4.195426922004387,
+  "ted_fraction_within_1pp": 0.970679012345679,
+  "CO": {
+   "mode_cm1": 1803.3,
+   "pedro_ted": 87.1,
+   "veda_ted": 87.0
+  }
+ },
+ "gsva14": {
+  "same_coordinate_set_as_block14": true,
+  "n_modes": 36,
+  "n_imaginary": 0,
+  "lowest_cm1_pedro": [
+   132.7,
+   223.5,
+   250.0,
+   425.6
+  ],
+  "lowest_cm1_veda": [
+   132.7,
+   223.5,
+   250.1,
+   425.6
+  ],
+  "freq_max_abs_diff_cm1": 0.032986726833314606,
+  "ted_max_abs_diff_pp": 0.4993740366182635,
+  "ted_fraction_within_1pp": 1.0,
+  "CO": {
+   "mode_cm1": 1802.9,
+   "pedro_ted": 87.1,
+   "veda_ted": 87.0
+  }
+ },
+ "oniom_case_F": {
+  "n_modes": 1836,
+  "n_imaginary": 0,
+  "CO": {
+   "mode_cm1": 1803.3,
+   "pedro_ted": 87.1
+  }
+ },
+ "oniom_case_P": {
+  "n_modes": 42,
+  "n_imaginary": 0,
+  "CO": {
+   "mode_cm1": 1803.3,
+   "pedro_ted": 87.1
+  }
+ },
+ "veda_logs": {
+  "full614": "full614_skra_v01.log",
+  "near481": "near481_skra_v01.log",
+  "near480": "near480_skra_v01.log",
+  "block14": "block14_skra_v01.log"
+ }
+}

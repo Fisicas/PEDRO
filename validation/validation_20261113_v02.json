@@ -1,0 +1,812 @@
+{
+ "pedro": "0.2.0b1",
+ "date": "2026-11-13T21:44:06",
+ "python": "3.12.10",
+ "numpy": "2.5.3",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "veda_own": [
+  {
+   "case": "ethylene",
+   "source": "validation/veda_reference/ethylene",
+   "formula": "C2H4",
+   "n_atoms": 6,
+   "n_modes": 12,
+   "n_imaginary": 0,
+   "sha256_input": "41bee4d8d4f54dc82108eb67ac3de3530b25230ebf3e0f61e49670b63c2c7af4",
+   "veda_version": "4.99e",
+   "ted_fraction_within_1pp": 1.0,
+   "ted_fraction_within_0p5pp": 1.0,
+   "ted_max_abs_diff_pp": 0.4913618722660047,
+   "ted_cluster_summed_max_abs_diff_pp": 0.4913618722660047,
+   "ted_rms_diff_pp": 0.10411934941502433,
+   "ped_fraction_within_1pp": 1.0,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9930555555555556,
+   "ped_max_abs_diff_pp": 0.5325103116588537,
+   "freq_max_abs_diff_cm1": 0.034087694008121616,
+   "largest_differences": []
+  },
+  {
+   "case": "methanol_jamroz_t1a",
+   "source": "validation/veda_reference/methanol_jamroz_t1a",
+   "formula": "CH4O",
+   "n_atoms": 6,
+   "n_modes": 12,
+   "n_imaginary": 0,
+   "sha256_input": "7f406f3539210164f7473fa30bfe0f9e5ee761261cceeca7228823657f2ceb6d",
+   "veda_version": "4.99e",
+   "ted_fraction_within_1pp": 1.0,
+   "ted_fraction_within_0p5pp": 1.0,
+   "ted_max_abs_diff_pp": 0.4991559367229884,
+   "ted_cluster_summed_max_abs_diff_pp": 0.4991559367229884,
+   "ted_rms_diff_pp": 0.1399751454685917,
+   "ped_fraction_within_1pp": 1.0,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9791666666666666,
+   "ped_max_abs_diff_pp": 0.9437836347003774,
+   "freq_max_abs_diff_cm1": 0.04386697090171765,
+   "largest_differences": []
+  },
+  {
+   "case": "methanol_jamroz_t1b",
+   "source": "validation/veda_reference/methanol_jamroz_t1b",
+   "formula": "CH4O",
+   "n_atoms": 6,
+   "n_modes": 12,
+   "n_imaginary": 0,
+   "sha256_input": "7f406f3539210164f7473fa30bfe0f9e5ee761261cceeca7228823657f2ceb6d",
+   "veda_version": "4.99e",
+   "ted_fraction_within_1pp": 1.0,
+   "ted_fraction_within_0p5pp": 1.0,
+   "ted_max_abs_diff_pp": 0.4991560032356064,
+   "ted_cluster_summed_max_abs_diff_pp": 0.4991560032356064,
+   "ted_rms_diff_pp": 0.13643288259073202,
+   "ped_fraction_within_1pp": 1.0,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9861111111111112,
+   "ped_max_abs_diff_pp": 0.937682493802388,
+   "freq_max_abs_diff_cm1": 0.04386697090171765,
+   "largest_differences": []
+  },
+  {
+   "case": "water",
+   "source": "validation/veda_reference/water",
+   "formula": "H2O",
+   "n_atoms": 3,
+   "n_modes": 3,
+   "n_imaginary": 0,
+   "sha256_input": "a8a29965c9df809ecbefba597938309560877b3311deb713a8ca421659abae2e",
+   "veda_version": "4.99e",
+   "ted_fraction_within_1pp": 1.0,
+   "ted_fraction_within_0p5pp": 1.0,
+   "ted_max_abs_diff_pp": 0.03705784114147728,
+   "ted_cluster_summed_max_abs_diff_pp": 0.03705784114147728,
+   "ted_rms_diff_pp": 0.021395354558617775,
+   "ped_fraction_within_1pp": 1.0,
+   "ped_fraction_magnitude_rounds_to_veda": 1.0,
+   "ped_max_abs_diff_pp": 0.037030395810973005,
+   "freq_max_abs_diff_cm1": 0.4164445350443202,
+   "largest_differences": []
+  }
+ ],
+ "veda_examples": [
+  {
+   "case": "a1-91",
+   "source": "VEDA 4 distribution, examp_1",
+   "formula": "C2H7N",
+   "n_atoms": 10,
+   "n_modes": 24,
+   "n_imaginary": 0,
+   "sha256_input": "468ca16c8740bfd943e5c2928fa53d0c654aa71fde386508736139b037054355",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.9982638888888888,
+   "ted_fraction_within_0p5pp": 0.9791666666666666,
+   "ted_max_abs_diff_pp": 1.1180908163035213,
+   "ted_cluster_summed_max_abs_diff_pp": 1.1180908163035213,
+   "ted_rms_diff_pp": 0.21142543469048755,
+   "ped_fraction_within_1pp": 1.0,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9722222222222222,
+   "ped_max_abs_diff_pp": 0.8527612279168908,
+   "freq_max_abs_diff_cm1": 1.2873642912538799,
+   "largest_differences": [
+    {
+     "mode": 13,
+     "freq_cm1": 1479.4787175834635,
+     "coordinate": 10,
+     "label": "δ(H7–N4–C6)",
+     "pedro": 64.11809081630352,
+     "veda": 63.0,
+     "cluster_size": 1
+    }
+   ]
+  },
+  {
+   "case": "a1-91a",
+   "source": "VEDA 4 distribution, examp_1",
+   "formula": "C2H7N",
+   "n_atoms": 10,
+   "n_modes": 24,
+   "n_imaginary": 0,
+   "sha256_input": "468ca16c8740bfd943e5c2928fa53d0c654aa71fde386508736139b037054355",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.9965277777777778,
+   "ted_fraction_within_0p5pp": 0.9739583333333334,
+   "ted_max_abs_diff_pp": 1.1180908163035497,
+   "ted_cluster_summed_max_abs_diff_pp": 1.1180908163035497,
+   "ted_rms_diff_pp": 0.18332218930902436,
+   "ped_fraction_within_1pp": 0.9670138888888888,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9149305555555556,
+   "ped_max_abs_diff_pp": 3.2127908244707513,
+   "freq_max_abs_diff_cm1": 1.2873642912538799,
+   "largest_differences": [
+    {
+     "mode": 13,
+     "freq_cm1": 1479.4787175834635,
+     "coordinate": 12,
+     "label": "δ(H7–N4–C6)",
+     "pedro": 64.11809081630355,
+     "veda": 63.0,
+     "cluster_size": 1
+    },
+    {
+     "mode": 16,
+     "freq_cm1": 1524.5939711697372,
+     "coordinate": 9,
+     "label": "+1.00·δ(H1–C2–H3) + -1.00·δ(H3–C2–H5) + +1.00·δ(H8–C6–H9) + -1.00·δ(H9–C6–H10)",
+     "pedro": 117.0123018355655,
+     "veda": 116.0,
+     "cluster_size": 1
+    }
+   ]
+  },
+  {
+   "case": "neopent",
+   "source": "VEDA 4 distribution, examp_2",
+   "formula": "C5H12",
+   "n_atoms": 17,
+   "n_modes": 45,
+   "n_imaginary": 0,
+   "sha256_input": "7d3e949d19cf1f522aec8ca0f8c641363c48c8c6ada5995a8cb0d6a48a1357d0",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.9837037037037037,
+   "ted_fraction_within_0p5pp": 0.9535802469135802,
+   "ted_max_abs_diff_pp": 2.9205315233975817,
+   "ted_cluster_summed_max_abs_diff_pp": 2.9205315233975817,
+   "ted_rms_diff_pp": 0.27935135479377166,
+   "ped_fraction_within_1pp": 0.9891358024691358,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9540740740740741,
+   "ped_max_abs_diff_pp": 1.7712660744362534,
+   "freq_max_abs_diff_cm1": 0.9922847342371597,
+   "largest_differences": [
+    {
+     "mode": 14,
+     "freq_cm1": 948.8877152657628,
+     "coordinate": 35,
+     "label": "τ(H9–C6–C2–C1)",
+     "pedro": 20.07946847660242,
+     "veda": 23.0,
+     "cluster_size": 1
+    },
+    {
+     "mode": 16,
+     "freq_cm1": 951.7669486626856,
+     "coordinate": 39,
+     "label": "τ(H14–C7–C2–C1)",
+     "pedro": 14.96737148272977,
+     "veda": 17.0,
+     "cluster_size": 2
+    },
+    {
+     "mode": 16,
+     "freq_cm1": 951.7669486626856,
+     "coordinate": 41,
+     "label": "τ(H10–C8–C2–C1)",
+     "pedro": 14.969586744800493,
+     "veda": 17.0,
+     "cluster_size": 2
+    }
+   ]
+  },
+  {
+   "case": "neopent1",
+   "source": "VEDA 4 distribution, examp_2",
+   "formula": "C5H12",
+   "n_atoms": 17,
+   "n_modes": 45,
+   "n_imaginary": 0,
+   "sha256_input": "7d3e949d19cf1f522aec8ca0f8c641363c48c8c6ada5995a8cb0d6a48a1357d0",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.985679012345679,
+   "ted_fraction_within_0p5pp": 0.9590123456790124,
+   "ted_max_abs_diff_pp": 3.2282484471270774,
+   "ted_cluster_summed_max_abs_diff_pp": 3.0869784982481203,
+   "ted_rms_diff_pp": 0.2944150060320016,
+   "ped_fraction_within_1pp": 0.980246913580247,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9367901234567901,
+   "ped_max_abs_diff_pp": 2.9576073857304337,
+   "freq_max_abs_diff_cm1": 0.9922847342371597,
+   "largest_differences": [
+    {
+     "mode": 40,
+     "freq_cm1": 3092.269154682251,
+     "coordinate": 10,
+     "label": "+1.00·ν(C8–H10) + +1.00·ν(C8–H11) + -1.00·ν(C8–H12)",
+     "pedro": 11.771751552872923,
+     "veda": 15.0,
+     "cluster_size": 5
+    },
+    {
+     "mode": 4,
+     "freq_cm1": 278.58382542026084,
+     "coordinate": 40,
+     "label": "+1.00·τ(H13–C7–C2–C1) + +1.00·τ(H14–C7–C2–C1) + +1.00·τ(H15–C7–C2–C1)",
+     "pedro": 10.91302150175188,
+     "veda": 14.0,
+     "cluster_size": 1
+    },
+    {
+     "mode": 3,
+     "freq_cm1": 277.5746254542803,
+     "coordinate": 40,
+     "label": "+1.00·τ(H13–C7–C2–C1) + +1.00·τ(H14–C7–C2–C1) + +1.00·τ(H15–C7–C2–C1)",
+     "pedro": 16.68443493780349,
+     "veda": 14.0,
+     "cluster_size": 1
+    }
+   ]
+  },
+  {
+   "case": "neopent2",
+   "source": "VEDA 4 distribution, examp_2",
+   "formula": "C5H12",
+   "n_atoms": 17,
+   "n_modes": 45,
+   "n_imaginary": 0,
+   "sha256_input": "7d3e949d19cf1f522aec8ca0f8c641363c48c8c6ada5995a8cb0d6a48a1357d0",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.9896296296296296,
+   "ted_fraction_within_0p5pp": 0.9782716049382716,
+   "ted_max_abs_diff_pp": 3.9723516575768087,
+   "ted_cluster_summed_max_abs_diff_pp": 3.649442340479311,
+   "ted_rms_diff_pp": 0.26051013767162046,
+   "ped_fraction_within_1pp": 0.9723456790123457,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9328395061728395,
+   "ped_max_abs_diff_pp": 4.43350223354544,
+   "freq_max_abs_diff_cm1": 0.9922847342371597,
+   "largest_differences": [
+    {
+     "mode": 40,
+     "freq_cm1": 3092.269154682251,
+     "coordinate": 6,
+     "label": "+1.00·ν(C1–H4) + -1.00·ν(C1–H5) + -1.00·ν(C7–H13) + -1.00·ν(C7–H14) + +1.00·ν(C7–H15) + +1.00·ν(C8–H10) + +1.00·ν(C8–H11) + -1.00·ν(C8–H12)",
+     "pedro": 90.02764834242319,
+     "veda": 94.0,
+     "cluster_size": 5
+    },
+    {
+     "mode": 14,
+     "freq_cm1": 948.8877152657628,
+     "coordinate": 32,
+     "label": "+1.00·τ(H9–C6–C2–C1) + -1.00·τ(H10–C8–C2–C1) + -1.00·τ(H11–C8–C2–C1) + +1.00·τ(H15–C7–C2–C1)",
+     "pedro": 135.3505576595207,
+     "veda": 139.0,
+     "cluster_size": 1
+    },
+    {
+     "mode": 16,
+     "freq_cm1": 951.7669486626856,
+     "coordinate": 32,
+     "label": "+1.00·τ(H9–C6–C2–C1) + -1.00·τ(H10–C8–C2–C1) + -1.00·τ(H11–C8–C2–C1) + +1.00·τ(H15–C7–C2–C1)",
+     "pedro": 8.231561554487401,
+     "veda": 5.0,
+     "cluster_size": 2
+    }
+   ]
+  },
+  {
+   "case": "neopent3",
+   "source": "VEDA 4 distribution, examp_2",
+   "formula": "C5H12",
+   "n_atoms": 17,
+   "n_modes": 45,
+   "n_imaginary": 0,
+   "sha256_input": "7d3e949d19cf1f522aec8ca0f8c641363c48c8c6ada5995a8cb0d6a48a1357d0",
+   "veda_version": "4.99f",
+   "ted_fraction_within_1pp": 0.9960493827160494,
+   "ted_fraction_within_0p5pp": 0.9866666666666667,
+   "ted_max_abs_diff_pp": 2.2531777991006976,
+   "ted_cluster_summed_max_abs_diff_pp": 1.2320295011018345,
+   "ted_rms_diff_pp": 0.1634026783445922,
+   "ped_fraction_within_1pp": 0.9980246913580247,
+   "ped_fraction_magnitude_rounds_to_veda": 0.9832098765432099,
+   "ped_max_abs_diff_pp": 1.5500884233391883,
+   "freq_max_abs_diff_cm1": 0.9922847342371597,
+   "largest_differences": [
+    {
+     "mode": 38,
+     "freq_cm1": 3091.407648171423,
+     "coordinate": 8,
+     "label": "+1.00·ν(C6–H16) + +1.00·ν(C7–H14) + -1.00·ν(C8–H10) + -1.00·ν(C8–H12)",
+     "pedro": 100.7468222008993,
+     "veda": 103.0,
+     "cluster_size": 5
+    },
+    {
+     "mode": 41,
+     "freq_cm1": 3093.21268570789,
+     "coordinate": 5,
+     "label": "+1.00·ν(C6–H16) + -1.00·ν(C7–H14) + +1.00·ν(C8–H10)",
+     "pedro": 104.11091719578849,
+     "veda": 106.0,
+     "cluster_size": 5
+    },
+    {
+     "mode": 41,
+     "freq_cm1": 3093.21268570789,
+     "coordinate": 8,
+     "label": "+1.00·ν(C6–H16) + +1.00·ν(C7–H14) + -1.00·ν(C8–H10) + -1.00·ν(C8–H12)",
+     "pedro": -0.39856008384188973,
+     "veda": -2.0,
+     "cluster_size": 5
+    }
+   ]
+  }
+ ],
+ "published": [
+  {
+   "name": "jamroz2013_methanol",
+   "title": "Methanol, Jamróz 2013 Tables 1A and 1B",
+   "reference": "M. H. Jamróz, Spectrochim. Acta A 114 (2013) 220–230, doi:10.1016/j.saa.2013.05.096",
+   "published_level": "B3LYP/aug-cc-pVQZ, Gaussian 03, VEDA 4",
+   "our_calculation": "methanol.log: Gaussian 16 A.03, B3LYP/aug-cc-pVQZ Opt=Tight Freq Int=UltraFine (methanol.gjf)",
+   "tables": [
+    {
+     "table": "Table 1A (symmetry conserved)",
+     "rows": [
+      {
+       "coord": 1,
+       "label": "ν(O5–H6)",
+       "published_cm1": 3835,
+       "ours_cm1": 3835.8,
+       "published": 100,
+       "pedro": 99.9,
+       "veda_on_ours": 100.0
+      },
+      {
+       "coord": 2,
+       "label": "+2.00·ν(C1–H2) + -1.00·ν(C1–H3) + -1.00·ν(C1–H4)",
+       "published_cm1": 3109,
+       "ours_cm1": 3107.7,
+       "published": 98,
+       "pedro": 97.9,
+       "veda_on_ours": 98.0
+      },
+      {
+       "coord": 3,
+       "label": "+1.00·ν(C1–H3) + -1.00·ν(C1–H4)",
+       "published_cm1": 3040,
+       "ours_cm1": 3037.9,
+       "published": 100,
+       "pedro": 99.8,
+       "veda_on_ours": 100.0
+      },
+      {
+       "coord": 4,
+       "label": "+1.00·ν(C1–H2) + +2.00·ν(C1–H3) + +2.00·ν(C1–H4)",
+       "published_cm1": 2994,
+       "ours_cm1": 2992.2,
+       "published": 98,
+       "pedro": 97.8,
+       "veda_on_ours": 98.0
+      },
+      {
+       "coord": 5,
+       "label": "+2.00·δ(H3–C1–H4) + +1.00·δ(H2–C1–O5)",
+       "published_cm1": 1510,
+       "ours_cm1": 1510.3,
+       "published": 94,
+       "pedro": 94.0,
+       "veda_on_ours": 94.0
+      },
+      {
+       "coord": 6,
+       "label": "+1.00·δ(H2–C1–H3) + -1.00·δ(H2–C1–H4)",
+       "published_cm1": 1499,
+       "ours_cm1": 1499.3,
+       "published": 94,
+       "pedro": 94.2,
+       "veda_on_ours": 94.0
+      },
+      {
+       "coord": 7,
+       "label": "+1.00·δ(H2–C1–H3) + +1.00·δ(H2–C1–H4) + +1.00·δ(H3–C1–H4)",
+       "published_cm1": 1480,
+       "ours_cm1": 1480.5,
+       "published": 96,
+       "pedro": 96.4,
+       "veda_on_ours": 96.0
+      },
+      {
+       "coord": 8,
+       "label": "+1.00·δ(H2–C1–O5) + +1.00·δ(H6–O5–C1)",
+       "published_cm1": 1368,
+       "ours_cm1": 1367.0,
+       "published": 98,
+       "pedro": 98.5,
+       "veda_on_ours": 98.0
+      },
+      {
+       "coord": 9,
+       "label": "-1.00·δ(H3–C1–O5) + +1.00·δ(H4–C1–O5)",
+       "published_cm1": 1174,
+       "ours_cm1": 1173.5,
+       "published": 94,
+       "pedro": 94.4,
+       "veda_on_ours": 94.0
+      },
+      {
+       "coord": 10,
+       "label": "+1.00·δ(H2–C1–O5) + -1.00·δ(H3–C1–O5) + -1.00·δ(H4–C1–O5) + -1.00·δ(H6–O5–C1)",
+       "published_cm1": 1078,
+       "ours_cm1": 1077.9,
+       "published": 74,
+       "pedro": 71.6,
+       "veda_on_ours": 72.0
+      },
+      {
+       "coord": 10,
+       "label": "+1.00·δ(H2–C1–O5) + -1.00·δ(H3–C1–O5) + -1.00·δ(H4–C1–O5) + -1.00·δ(H6–O5–C1)",
+       "published_cm1": 1040,
+       "ours_cm1": 1041.0,
+       "published": 22,
+       "pedro": 23.1,
+       "veda_on_ours": 24.0
+      },
+      {
+       "coord": 11,
+       "label": "ν(O5–C1)",
+       "published_cm1": 1078,
+       "ours_cm1": 1077.9,
+       "published": 22,
+       "pedro": 24.7,
+       "veda_on_ours": 24.0
+      },
+      {
+       "coord": 11,
+       "label": "ν(O5–C1)",
+       "published_cm1": 1040,
+       "ours_cm1": 1041.0,
+       "published": 75,
+       "pedro": 72.7,
+       "veda_on_ours": 73.0
+      },
+      {
+       "coord": 12,
+       "label": "τ(H3–C1–O5–H6)",
+       "published_cm1": 292,
+       "ours_cm1": 290.0,
+       "published": 99,
+       "pedro": 99.4,
+       "veda_on_ours": 99.0
+      }
+     ],
+     "n": 14,
+     "within_1pp": 10,
+     "max_pp": 2.6999999999999993,
+     "freq_max_abs_diff_cm1": 2.099999999999909,
+     "pedro_vs_veda_on_ours_max_pp": 0.8999999999999986
+    },
+    {
+     "table": "Table 1B (symmetry ignored)",
+     "rows": [
+      {
+       "coord": 1,
+       "label": "ν(O5–H6)",
+       "published_cm1": 3835,
+       "ours_cm1": 3835.8,
+       "published": 100,
+       "pedro": 99.9,
+       "veda_on_ours": 100.0
+      },
+      {
+       "coord": 2,
+       "label": "ν(C1–H2)",
+       "published_cm1": 3109,
+       "ours_cm1": 3107.7,
+       "published": 98,
+       "pedro": 98.4,
+       "veda_on_ours": 98.0
+      },
+      {
+       "coord": 3,
+       "label": "+1.00·ν(C1–H3) + -1.00·ν(C1–H4)",
+       "published_cm1": 3040,
+       "ours_cm1": 3037.9,
+       "published": 100,
+       "pedro": 99.7,
+       "veda_on_ours": 100.0
+      },
+      {
+       "coord": 4,
+       "label": "+1.00·ν(C1–H2) + +2.00·ν(C1–H3) + +2.00·ν(C1–H4)",
+       "published_cm1": 2994,
+       "ours_cm1": 2992.2,
+       "published": 98,
+       "pedro": 98.3,
+       "veda_on_ours": 98.0
+      },
+      {
+       "coord": 5,
+       "label": "+1.00·δ(H2–C1–O5) + +2.00·δ(H3–C1–H4)",
+       "published_cm1": 1510,
+       "ours_cm1": 1510.3,
+       "published": 94,
+       "pedro": 94.0,
+       "veda_on_ours": 94.0
+      },
+      {
+       "coord": 6,
+       "label": "δ(H2–C1–H3)",
+       "published_cm1": 1499,
+       "ours_cm1": 1499.3,
+       "published": 99,
+       "pedro": 99.0,
+       "veda_on_ours": 99.0
+      },
+      {
+       "coord": 7,
+       "label": "+1.00·δ(H2–C1–H3) + +1.00·δ(H2–C1–H4) + +1.00·δ(H3–C1–H4)",
+       "published_cm1": 1480,
+       "ours_cm1": 1480.5,
+       "published": 96,
+       "pedro": 96.4,
+       "veda_on_ours": 96.0
+      },
+      {
+       "coord": 8,
+       "label": "+1.00·δ(H2–C1–O5) + +1.00·δ(H6–O5–C1)",
+       "published_cm1": 1368,
+       "ours_cm1": 1367.0,
+       "published": 98,
+       "pedro": 98.5,
+       "veda_on_ours": 99.0
+      },
+      {
+       "coord": 9,
+       "label": "+1.00·δ(H2–C1–H4) + -2.00·δ(H3–C1–O5) + +2.00·δ(H4–C1–O5)",
+       "published_cm1": 1174,
+       "ours_cm1": 1173.5,
+       "published": 99,
+       "pedro": 99.0,
+       "veda_on_ours": 99.0
+      },
+      {
+       "coord": 10,
+       "label": "+1.00·δ(H2–C1–O5) + -1.00·δ(H3–C1–O5) + -1.00·δ(H4–C1–O5) + -1.00·δ(H6–O5–C1)",
+       "published_cm1": 1078,
+       "ours_cm1": 1077.9,
+       "published": 73,
+       "pedro": 71.6,
+       "veda_on_ours": 72.0
+      },
+      {
+       "coord": 10,
+       "label": "+1.00·δ(H2–C1–O5) + -1.00·δ(H3–C1–O5) + -1.00·δ(H4–C1–O5) + -1.00·δ(H6–O5–C1)",
+       "published_cm1": 1040,
+       "ours_cm1": 1041.0,
+       "published": 22,
+       "pedro": 23.1,
+       "veda_on_ours": 24.0
+      },
+      {
+       "coord": 11,
+       "label": "ν(O5–C1)",
+       "published_cm1": 1078,
+       "ours_cm1": 1077.9,
+       "published": 22,
+       "pedro": 24.7,
+       "veda_on_ours": 24.0
+      },
+      {
+       "coord": 11,
+       "label": "ν(O5–C1)",
+       "published_cm1": 1040,
+       "ours_cm1": 1041.0,
+       "published": 75,
+       "pedro": 72.7,
+       "veda_on_ours": 73.0
+      },
+      {
+       "coord": 12,
+       "label": "+1.00·τ(H2–C1–O5–H6) + +1.00·τ(H3–C1–O5–H6) + +1.00·τ(H4–C1–O5–H6)",
+       "published_cm1": 292,
+       "ours_cm1": 290.0,
+       "published": 100,
+       "pedro": 99.9,
+       "veda_on_ours": 100.0
+      }
+     ],
+     "n": 14,
+     "within_1pp": 10,
+     "max_pp": 2.6999999999999993,
+     "freq_max_abs_diff_cm1": 2.099999999999909,
+     "pedro_vs_veda_on_ours_max_pp": 0.8999999999999986
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "file": "examples/benzaldehyde_gvpt2_b3lyp_gaussian.log",
+   "program": "EM64W-G16RevA.03",
+   "sha256": "7df4922ffc9828aeb630a180f42c4a7445f7443dd787a83767801e7819d1f0b6",
+   "n_atoms": 14,
+   "case": "isolated",
+   "freq_max_abs_diff_cm1": 0.0001910516045455779,
+   "n_imaginary": 0,
+   "masses": "log (printed masses match the most-abundant isotopes; exact values used)"
+  },
+  {
+   "file": "examples/ethylene_gvpt2_b3lyp_gaussian.log",
+   "program": "EM64W-G16RevA.03",
+   "sha256": "3a83b3c23e00c3c56e147a2bc71e1d43e3ef4a1962d2570292a31cb2d2946217",
+   "n_atoms": 6,
+   "case": "isolated",
+   "freq_max_abs_diff_cm1": 0.00013562605522565718,
+   "n_imaginary": 0,
+   "masses": "log (printed masses match the most-abundant isotopes; exact values used)"
+  },
+  {
+   "file": "examples/acetone_2h2o_b3lyp_orca.hess",
+   "program": "ORCA",
+   "sha256": "094aca1428a94c969cce5e99a5e03198bb34eab1746cd96785cf947994e72d30",
+   "n_atoms": 16,
+   "case": "F",
+   "freq_max_abs_diff_cm1": 0.0002186579358749441,
+   "n_imaginary": 1,
+   "masses": "file (masses as ORCA used them)"
+  },
+  {
+   "file": "tests/data/water_hf_def2svp_orca611.hess",
+   "program": "ORCA",
+   "sha256": "254c31d25e21b5cafcb9cd91a3741e53913f8e7c42c80423f84be08aa13085bc",
+   "n_atoms": 3,
+   "case": "isolated",
+   "freq_max_abs_diff_cm1": 0.00024135204512276687,
+   "n_imaginary": 0,
+   "masses": "file (masses as ORCA used them)"
+  },
+  {
+   "file": "validation/published/jamroz2013_methanol/methanol.log",
+   "program": "EM64W-G16RevA.03",
+   "sha256": "0f8fb6845d99db22a7bc08c49d63605b2609c5369887bea902cdc8d6aa5e5e68",
+   "n_atoms": 6,
+   "case": "isolated",
+   "freq_max_abs_diff_cm1": 0.0001308416315737304,
+   "n_imaginary": 0,
+   "masses": "log (printed masses match the most-abundant isotopes; exact values used)"
+  }
+ ],
+ "oniom": [
+  {
+   "file": "../own_calculations/oniom_benzaldehyde_water/benzaldehyde_water_oniom.log",
+   "sha256": "40e765cdd93e90b1ffe7dcb3f1a25f5f204fadd7cad529fac04bdb576c3fd131",
+   "n_atoms": 614,
+   "runs": {
+    "F": {
+     "seconds": 5.62,
+     "peak_MB": 306,
+     "n_modes": 1836,
+     "n_imaginary": 0,
+     "n_subsystem_atoms": 14,
+     "condition_L": 181.04198444729641,
+     "ted_closure_max_pp": 5.684341886080801e-13,
+     "freq_max_abs_diff_cm1": 0.03008690618118237,
+     "identity_max_dev_pp": 4.641748814551306
+    },
+    "Fprime": {
+     "seconds": 4.27,
+     "peak_MB": 308,
+     "n_modes": 1842,
+     "n_imaginary": 6,
+     "n_subsystem_atoms": 14,
+     "condition_L": 24.096986858925504,
+     "ted_closure_max_pp": 2.5579538487363607e-13,
+     "freq_max_abs_diff_cm1": null,
+     "identity_max_dev_pp": 4.689582056016661e-13
+    },
+    "P": {
+     "seconds": 0.08,
+     "peak_MB": 3,
+     "n_modes": 42,
+     "n_imaginary": 0,
+     "n_subsystem_atoms": 14,
+     "condition_L": 24.096986858925586,
+     "ted_closure_max_pp": 8.526512829121202e-14,
+     "freq_max_abs_diff_cm1": null,
+     "identity_max_dev_pp": 0.0
+    }
+   },
+   "max_atom_force_Eh_bohr": 6.415586722973979e-05
+  }
+ ],
+ "gvpt2": [
+  {
+   "file": "examples/benzaldehyde_gvpt2_b3lyp_gaussian.log",
+   "sha256": "7df4922ffc9828aeb630a180f42c4a7445f7443dd787a83767801e7819d1f0b6",
+   "n_atoms": 14,
+   "seconds": 1.03,
+   "status": "ok",
+   "reason": null,
+   "pt2_model": "Deperturbed VPT2 (DVPT2)",
+   "counts": {
+    "fundamental": 36,
+    "overtone": 36,
+    "combination": 630
+   },
+   "verdicts": {
+    "clean": 286,
+    "warning": 416,
+    "failed": 0
+   },
+   "mapping_residual_cm1": 0.0004552860059447994,
+   "quality_counts": {
+    "ANOMALOUS_SHIFT": 0,
+    "QUARTIC_OUTLIER": 9,
+    "RESONANCE_MIXED": 10,
+    "COUPLED_TO_FLAGGED": 4
+   },
+   "symmetry_group": "Cs",
+   "symmetry_status": "ok",
+   "variational_parse_check_cm1": 0.0451,
+   "resonances": {
+    "fermi": 12,
+    "dd22": 9,
+    "dd11": 11
+   },
+   "screen": {
+    "delta_cm1": 10.0,
+    "n_candidates": 61,
+    "gaussian_fermi": 12,
+    "recovered": 7
+   }
+  },
+  {
+   "file": "examples/ethylene_gvpt2_b3lyp_gaussian.log",
+   "sha256": "3a83b3c23e00c3c56e147a2bc71e1d43e3ef4a1962d2570292a31cb2d2946217",
+   "n_atoms": 6,
+   "seconds": 0.07,
+   "status": "ok",
+   "reason": null,
+   "pt2_model": "Deperturbed VPT2 (DVPT2)",
+   "counts": {
+    "fundamental": 12,
+    "overtone": 12,
+    "combination": 66
+   },
+   "verdicts": {
+    "clean": 23,
+    "warning": 67,
+    "failed": 0
+   },
+   "mapping_residual_cm1": 0.0004277761142930103,
+   "quality_counts": {
+    "ANOMALOUS_SHIFT": 0,
+    "QUARTIC_OUTLIER": 5,
+    "RESONANCE_MIXED": 0,
+    "COUPLED_TO_FLAGGED": 1
+   },
+   "symmetry_group": "D2h",
+   "symmetry_status": "ok",
+   "variational_parse_check_cm1": 0.0087,
+   "resonances": {
+    "fermi": 1,
+    "dd22": 2,
+    "dd11": 0
+   },
+   "screen": {
+    "delta_cm1": 10.0,
+    "n_candidates": 0,
+    "gaussian_fermi": 1,
+    "recovered": 0
+   }
+  }
+ ]
+}

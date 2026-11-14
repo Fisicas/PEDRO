@@ -1,0 +1,14 @@
+%nprocshared=8
+%mem=4GB
+#p B3LYP/6-31+G(d) Opt=Tight Freq=Anharmonic Int=UltraFine
+
+ethylene GVPT2 public example
+
+0 1
+C    0.000000    0.000000    0.667000
+C    0.000000    0.000000   -0.667000
+H    0.000000    0.923000    1.238000
+H    0.000000   -0.923000    1.238000
+H    0.000000    0.923000   -1.238000
+H    0.000000   -0.923000   -1.238000
+
