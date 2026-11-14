@@ -36,6 +36,17 @@ For manual source installs, use `python -m pip install ".[gui]"` in the checkout
 python -m pip install --upgrade "pedro-ped[gui] @ git+https://github.com/Fisicas/PEDRO@v0.2.0b1"
 ```
 
+On minimal Ubuntu/Debian systems, the Qt GUI also needs native EGL/OpenGL runtime libraries:
+
+```bash
+sudo apt-get update
+sudo apt-get install --no-install-recommends -y libegl1 libgl1 libopengl0
+```
+
+The Linux GUI CI job installs these libraries explicitly and tests with `QT_QPA_PLATFORM=offscreen`. That setting
+avoids requiring a display server; it does not supply Qt's native runtime libraries. The core CLI/Python analysis
+does not import Qt. See [Qt's Linux requirements](https://doc.qt.io/qt-6/linux-requirements.html) for platform details.
+
 The managed installer does not modify or pull into a user's development checkout. Its environments and update
 state live under `%LOCALAPPDATA%\PEDRO` by default; research files should be kept in their own folders. Previous
 version environments are retained for diagnosis or deliberate reuse. The `-NoDeps` and `-NoBuildIsolation` switches

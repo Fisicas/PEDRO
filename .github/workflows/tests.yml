@@ -8,26 +8,35 @@ jobs:
         python: ["3.11", "3.12", "3.13"]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install -e ".[test,report]"
       - run: python -m pytest -q
   wheel-gui:
     strategy:
+      # A Linux setup failure should not cancel the independent Windows check.
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     env:
       QT_QPA_PLATFORM: offscreen
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      - name: Install Linux Qt runtime libraries
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y libegl1 libgl1 libopengl0
       - run: python -m pip wheel --no-deps --wheel-dir dist .
       - name: Install the built wheel with GUI and test dependencies
         shell: bash
         run: python -m pip install "$(find dist -name '*.whl' -print -quit)[gui,test]"
+      - name: Verify installed wheel and Qt runtime
+        run: python -c "import pedro; from PySide6 import QtCore, QtGui, QtWidgets; print('PEDRO', pedro.__version__, 'Qt', QtCore.__version__); print(pedro.__file__)"
       - run: python -m pytest -q tests/test_gui.py tests/test_examples.py tests/test_report_accounting.py tests/test_windows_installer.py
