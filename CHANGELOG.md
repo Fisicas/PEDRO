@@ -17,7 +17,8 @@
   retains the previous active version on update failure, and supports version pinning/offline launch. Manifests
   include pip's Git-install provenance when available.
 - CSV consumers of Fprime/P must account for the new rigid-body column and the corrected environment-only total.
-  The F and isolated CSV layouts are unchanged. The version DOI will be added after Zenodo archives the release.
+  The F and isolated CSV layouts are unchanged. The [software release](https://doi.org/10.5281/zenodo.24213384)
+  and [owned ONIOM benchmark](https://doi.org/10.5281/zenodo.24213306) are archived separately on Zenodo.
 
 ## 0.2.0.dev4 (12 November 2026): more input programs, release metadata
 

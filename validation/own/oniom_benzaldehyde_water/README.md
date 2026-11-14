@@ -6,9 +6,16 @@ embedding. Gaussian 16 A.03: `ONIOM(B3LYP/6-31G(d):UFF) Opt Freq` (the file here
 The optimization converged and every frequency is real (lowest 1.4 cm⁻¹).
 
 The 42 MB output log is not stored in Git; its SHA-256 is in `benzaldehyde_water_oniom.log.sha256`.
-**Availability: the public data archive is pending.** Add the actual persistent URL/DOI here before advertising
-downloadable reproduction of this benchmark; no placeholder DOI is a published record. The supplied `.gjf` and
-deterministic model generator are public inputs for regenerating the calculation with Gaussian.
+**Public data archive:** [DOI 10.5281/zenodo.24213306](https://doi.org/10.5281/zenodo.24213306), dataset version 1.0,
+published November 14, 2026. The archive includes the complete log, original input, generator, PED/TED outputs,
+unrounded arrays, provenance and checksums. Data/documentation: CC BY 4.0; included Python scripts: MIT.
+The supplied `.gjf` and deterministic model generator are public inputs for regenerating the calculation with Gaussian.
+The historical generator defaults to 8 cores/6 GB; the supplied calculation input uses 2 cores/4 GB. Regeneration
+reproduces the other input lines, including all atomic coordinates and ONIOM layers.
+
+Creator: Michael Raymond Nelson, [ORCID 0009-0004-9809-9842](https://orcid.org/0009-0004-9809-9842).
+Cite this dataset and the [PEDRO 0.2.0b1 software archive](https://doi.org/10.5281/zenodo.24213384) when reproducing
+the distributed analysis. Collaborator-owned and Q-drive research data are excluded.
 
 With an existing copy of the log, from the repository root:
 

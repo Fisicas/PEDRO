@@ -5,6 +5,8 @@
   </picture>
 </p>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24213383.svg)](https://doi.org/10.5281/zenodo.24213383)
+
 **PEDRO** (Potential Energy Distributions with Resonances and Overtones) assigns **harmonic vibrational modes of
 molecules embedded in large ONIOM and QM/MM models**. It reads a completed frequency calculation's Cartesian
 Hessian and describes the target molecule in bond stretches, bends, torsions and out-of-plane motions, retaining
@@ -221,12 +223,16 @@ The papers and programs PEDRO's methods, validation and comparisons rely on, eac
 Citation metadata is in [`CITATION.cff`](CITATION.cff); GitHub shows it as *Cite this repository*.
 
 > M. R. Nelson, *PEDRO: potential and total energy distributions from Cartesian Hessians, including molecules
-> embedded in large QM/MM models* (version 0.2.0b1, 2026), https://github.com/Fisicas/PEDRO
+> embedded in large QM/MM models* (version 0.2.0b1, 2026), Zenodo.
+> [https://doi.org/10.5281/zenodo.24213384](https://doi.org/10.5281/zenodo.24213384)
 
 If you compare with VEDA, please also cite M. H. Jamróz, *Spectrochim. Acta A* **114**, 220–230 (2013).
 
-For reproducible work, cite the specific PEDRO version and its version DOI once the Zenodo archive is published.
-The software and the owned ONIOM benchmark will have separate citations; see the [archiving procedure](docs/archiving.md).
+For reproducible work, cite the **specific software version DOI** above and record your analysis options.
+The badge at the top identifies [all PEDRO versions](https://doi.org/10.5281/zenodo.24213383).
+The owned 614-atom ONIOM benchmark is a separate dataset:
+[https://doi.org/10.5281/zenodo.24213306](https://doi.org/10.5281/zenodo.24213306) (CC BY 4.0; included scripts MIT).
+Cite both records when using the distributed benchmark. See the [archiving procedure](docs/archiving.md).
 
 ## License
 
@@ -236,5 +242,5 @@ MIT ([LICENSE](LICENSE)). Author: Michael Raymond Nelson.
 
 Report reproducible problems and discuss changes through the repository's issues and pull requests.
 See [CONTRIBUTING.md](CONTRIBUTING.md). Development will continue publicly; a paper route will be chosen
-after an application demonstrates the value of full-model assignments. The software citation is available now;
-no publication or DOI is implied.
+after an application demonstrates the value of full-model assignments. The beta software and owned benchmark
+are archived on Zenodo; a journal article remains future work.

@@ -1,7 +1,7 @@
-# Before the first public beta
+# First public beta release record
 
-Target version: **0.2.0b1**. This checklist records local preparation; it is not evidence that a GitHub release,
-PyPI upload or Zenodo record has been published. Publish only this `pedro/` tree, not the surrounding workspace.
+Published version: **0.2.0b1**, November 14, 2026. The GitHub and Zenodo links below identify the actual records.
+No PyPI upload is claimed. Publish only this `pedro/` tree, not the surrounding workspace.
 
 ## Decisions
 
@@ -11,7 +11,7 @@ PyPI upload or Zenodo record has been published. Publish only this `pedro/` tree
 | Release status | Public beta, 0.2.0b1; F remains the default full-model analysis |
 | Publication | Release first, develop publicly, choose the paper route after a convincing application demonstration |
 | Public data | Calculations made for PEDRO and transcribed published values only; collaborator-owned research ONIOM logs are excluded, and VEDA's distributed examples and private research references stay external |
-| Large benchmark | 42 MB ONIOM log goes to a public data archive, identified by SHA-256; actual archive link remains to be supplied |
+| Large benchmark | Owned 42 MB ONIOM log and derived PED/TED outputs: [dataset DOI](https://doi.org/10.5281/zenodo.24213306), identified by SHA-256 |
 | Repository / Python distribution | `github.com/Fisicas/PEDRO` / `pedro-ped` |
 | License and author | MIT, Michael Raymond Nelson |
 | Logo | Option C, with light/dark/adaptive variants in `branding/` |
@@ -37,19 +37,20 @@ PyPI upload or Zenodo record has been published. Publish only this `pedro/` tree
       [record](../validation/own/oniom_benzaldehyde_water/ped_ted_check_20261113_v01.json). The water model establishes
       numerical handling and scale, with weak coupling; it is not evidence for a changed protein/cofactor assignment.
 
-## Publication actions still pending
+## Publication actions
 
 - [x] Create/verify the GitHub repository and remote, then push the reviewed code and run CI.
-      [CI run 43558644365](https://github.com/Fisicas/PEDRO/actions/runs/43558644365) passed for commit `12143aa`.
-- [ ] Publish the ONIOM benchmark archive and add its actual persistent link to the benchmark README and validation.
-- [ ] Set the actual release date in `CITATION.cff`, date the changelog, and create tag `v0.2.0b1`.
-- [ ] Publish the GitHub beta release and social preview; visually check adaptive branding in dark mode.
-- [ ] Archive the software release on Zenodo and add its actual DOI to the citation and README.
+      [Release CI run 43561441834](https://github.com/Fisicas/PEDRO/actions/runs/43561441834) passed for commit `b6344c4`.
+- [x] Publish the [ONIOM benchmark archive](https://doi.org/10.5281/zenodo.24213306) and link the benchmark README and validation.
+- [x] Set the actual release date in `CITATION.cff`, date the changelog, and create tag `v0.2.0b1`.
+- [x] Publish the [GitHub beta release](https://github.com/Fisicas/PEDRO/releases/tag/v0.2.0b1).
+- [x] Archive the [software release on Zenodo](https://doi.org/10.5281/zenodo.24213384) and add its actual DOI to the citation and README.
 
 Follow the [archiving procedure](archiving.md) for the software and the separate owned benchmark dataset.
 
 ## Later work
 
+- Set the GitHub social preview and visually check adaptive branding in dark mode if not already configured.
 - Finish the full-text comparison with mode tracking, NOMODECO, GAR2PED and MOLVIB before claiming novelty.
 - Demonstrate scientifically useful assignments in a realistically coupled application and select a paper venue.
 - Reduced-dimensional GVPT2, hot-band/ladder positions, linear-bend coordinates and a Windows executable are future

@@ -4,6 +4,14 @@ PEDRO's software and owned ONIOM benchmark are separate research objects. Archiv
 Zenodo–GitHub integration, and upload the benchmark as a separate dataset. Link their records after their
 identifiers are available. Collaborator-owned research logs are excluded from both archives.
 
+Published November 14, 2026:
+
+| Research object | Persistent identifier |
+|---|---|
+| PEDRO 0.2.0b1 software | [10.5281/zenodo.24213384](https://doi.org/10.5281/zenodo.24213384) |
+| PEDRO, all versions | [10.5281/zenodo.24213383](https://doi.org/10.5281/zenodo.24213383) |
+| Owned ONIOM benchmark, dataset 1.0 | [10.5281/zenodo.24213306](https://doi.org/10.5281/zenodo.24213306) |
+
 ## Software release
 
 `CITATION.cff` is the source of citation metadata for GitHub and Zenodo: Michael Raymond Nelson, MIT license,
@@ -25,8 +33,9 @@ For a scientific analysis, cite the **specific software version DOI**, and recor
 options. The all-versions DOI identifies the software project across releases. A moving `main` branch is not
 a substitute for a versioned archive. For unreleased development code, record its full Git commit as well.
 
-There is no software DOI in this document until a record has actually been published. Do not create a second
-manual software deposit for the same release while the GitHub integration is processing it.
+Do not create a second manual software deposit for the same release while the GitHub integration is processing
+it. For later releases, update the version/date and remove the previous version's DOI before tagging; add the
+newly assigned version DOI afterward. Keep the all-versions badge as the project-level identifier.
 
 ## Owned ONIOM benchmark dataset
 

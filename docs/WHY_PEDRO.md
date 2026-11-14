@@ -90,8 +90,9 @@ percentage point (its rounding limit) and every PED entry within 1 pp ([validati
 file (test suite).
 
 The [portable UniMoVib recipe and recorded comparison](../validation/own/unimovib_crosscheck/README.md) specify the
-inputs, mass convention and pseudo-inverse threshold. The large ONIOM log is intended for the release data archive;
-see its [availability status](../validation/own/oniom_benzaldehyde_water/README.md).
+inputs, mass convention and pseudo-inverse threshold. The owned large ONIOM log is available in the
+[benchmark dataset archive](https://doi.org/10.5281/zenodo.24213306); see the
+[benchmark description](../validation/own/oniom_benzaldehyde_water/README.md) for provenance and limitations.
 
 **Not claimed:** that no other tool computes an embedded-subsystem PED/TED. We have found none, but the literature
 check is not finished.

@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0004-9809-9842"
 version: "0.2.0b1"
 date-released: "2026-11-14"
+doi: "10.5281/zenodo.24213384"
 license: MIT
 repository-code: "https://github.com/Fisicas/PEDRO"
 abstract: >-

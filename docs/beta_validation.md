@@ -40,6 +40,11 @@ log and external/private reference calculations are excluded. Original calculati
 records were not modified. Full file hashes, test logs, package hashes and local GUI outputs are retained in the
 maintainer's versioned preparation folder outside the repository.
 
-Still pending: remote Windows/Linux CI, a live install/update from the public GitHub tags, the public benchmark
-archive link, and a representative protein/cofactor application demonstration. The archive and application are
-not asserted by these software checks. See the [release checklist](RELEASE_CHECKLIST.md).
+Subsequent publication checks on November 14, 2026: the Windows/Linux CI matrix passed for release commit
+`b6344c4`; the [software](https://doi.org/10.5281/zenodo.24213384) and
+[owned benchmark](https://doi.org/10.5281/zenodo.24213306) are archived on Zenodo. A subsequent pip installation
+from the public `v0.2.0b1` tag resolved to commit `b6344c4`; the installed package imported successfully and
+analyzed the owned embedded ORCA example in case P (30 modes). This used an isolated target folder and the
+existing NumPy/SciPy environment. A live managed-launcher update from the public tags and a representative
+protein/cofactor application demonstration remain separate checks; they are not established by these tests.
+See the [release checklist](RELEASE_CHECKLIST.md).
