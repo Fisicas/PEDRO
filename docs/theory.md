@@ -162,9 +162,15 @@ P_{ki}=\frac{100}{\lambda_k}\,L_{ik}\,(\mathbf{F}\mathbf{L})_{ik}.
 
 Because $`\mathbf{F}\mathbf{L}=\mathbf{L}^{-\mathsf T}\boldsymbol{\Lambda}`$, $`(\mathbf{F}\mathbf{L})_{ik}=\lambda_k(\mathbf{L}^{-1})_{ki}`$ and
 
+<table align="center">
+<tr><td>
+
 ```math
-\boxed{\;T_{ki}=100\,L_{ik}\,(\mathbf{L}^{-1})_{ki}\;}
+T_{ki}=100\,L_{ik}\,(\mathbf{L}^{-1})_{ki}
 ```
+
+</td></tr>
+</table>
 
 — the force constants cancel. This is the Keresztury–Jalsovszky form, and it is what VEDA prints as TED.
 
